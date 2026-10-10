@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anchor Press</title>
+  <meta name="description" content="Little Anchor Press Limited is a small app studio in Bath. We make Fuelspot, UK fuel prices on your iPhone.">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#F5547C">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --pink: #F5547C; --cream: #F6F4E8; }
+    * { box-sizing: border-box; margin: 0; }
+    html { background: var(--pink); }
+    body {
+      min-height: 100vh; min-height: 100dvh;
+      display: flex; flex-direction: column; align-items: center;
+      background: var(--pink); color: var(--cream);
+      font-family: Montserrat, system-ui, sans-serif; font-weight: 500;
+      line-height: 1.55; text-align: center;
+      padding: 0 16px;
+    }
+    main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 0; max-width: 34rem; }
+    h1 { margin: 0; }
+    h1 img { display: block; width: min(340px, 78vw); height: auto; }
+    p { font-size: 1.125rem; margin-top: 8px; }
+    .lede { margin-top: 0; }
+    a { color: var(--cream); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+    .contact {
+      display: inline-block; margin-top: 28px; padding: 12px 22px;
+      border: 2px solid var(--cream); border-radius: 999px;
+      font-weight: 800; letter-spacing: .04em; text-decoration: none;
+    }
+    .contact:hover, .contact:focus-visible { background: var(--cream); color: var(--pink); }
+    footer { padding: 24px 0 32px; font-size: .8125rem; opacity: .85; max-width: 40rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1><img src="logo.png" width="800" height="800" alt="Anchor Press"></h1>
+    <p class="lede">A small app studio in Bath.</p>
+    <p>We make Fuelspot, an iPhone app that finds the cheapest fuel near you, coming soon to the App Store.</p>
+    <a class="contact" href="mailto:hello@anchorpress.co">hello@anchorpress.co</a>
+  </main>
+  <footer>
+    Little Anchor Press Limited. Registered in England and Wales, company number 16260550.<br>
+    Registered office: 3 Hamilton House, North Parade Buildings, Bath, BA1 1NS.
+  </footer>
+</body>
+</html>
